@@ -1,6 +1,9 @@
+import Advertisement from "./component/advertisement";
+import Course from "./component/course";
 import Introduce from "./component/introduce";
 import RegisterCourse from "./component/RegisterCourse";
 import React from "react";
+import Route from "./component/route";
 
 export default function Page() {
   return (
@@ -13,6 +16,9 @@ export default function Page() {
     >
       <Introduce />
       <RegisterCourse />
+      <Advertisement />
+      <Course />
+      <Route />
     </section>
   );
 }
